@@ -274,6 +274,7 @@ a {
   display: flex;
   width: 400%;
   height: 60vh;
+  max-height: 60vh;
   -webkit-animation: cambio 20s infinite alternate;
           animation: cambio 20s infinite alternate;
 }
@@ -337,7 +338,6 @@ a {
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 10px;
-  border-bottom: #00b4d8 solid 3px;
 }
 
 .modelos {
@@ -510,5 +510,80 @@ a {
     height: 100px;
     width: 80px;
   }
+  .banner1 {
+    margin-bottom: -300px;
+  }
+}
+
+.banner1 {
+  background-image: url(https://www.hamblemotors.com/static/images/unity/default/templates/vehicles/new/peugeot/hybrid/main-image.jpg);
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-bottom: 50px;
+}
+
+.financiacion .financiacion__t {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.financiacion .financiacion__conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.financiacion .financiacion__conteiner .financiacion__contenido {
+  width: 470px;
+}
+
+.financiacion .financiacion__conteiner .financiacion__contenido .financiacion__img {
+  height: 600px;
+  width: 470px;
+}
+
+.financiacion .financiacion__conteiner .financiacion__contenido .financiacion-titulo {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.financiacion .financiacion__conteiner .financiacion__contenido .financiacion-p {
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Gothic A1', sans-serif;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.financiacion .financiacion__conteiner .financiacion__contenido .financiacion__b {
+  background-color: #00b4d8;
+  height: 40px;
+  width: 200px;
+  border: 0;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-left: 5px;
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

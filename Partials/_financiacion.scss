@@ -1,0 +1,56 @@
+.financiacion{
+    .financiacion__t{
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .financiacion__conteiner{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+
+        .financiacion__contenido{
+            width: 470px ;
+
+            .financiacion__img{
+                height: 600px;
+                width: 470px;
+            }
+
+            .financiacion-titulo{
+                font-family: 'Oswald', sans-serif;
+                text-align: left;
+                font-size: 25px;
+                margin-left: 5px;
+            }
+
+            .financiacion-p{
+                text-align: left;
+                font-size: 18px;
+                font-family: 'Gothic A1', sans-serif;
+                margin-left: 5px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            .financiacion__b{
+                background-color: #00b4d8;
+                height: 40px;
+                width: 200px;
+                border: 0;
+                color: white;
+                font-weight: 900;
+                cursor: pointer;
+                margin-top: 20px;
+                display: flex;
+                justify-content: left;
+                margin-left: 5px;
+                text-align: center;
+                padding-left: 40px;
+                padding-top: 10px;
+            }
+        }
+    }
+}
