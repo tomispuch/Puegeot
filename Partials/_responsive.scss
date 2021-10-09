@@ -1,0 +1,132 @@
+@media only screen and (max-width: 900px){
+    .nav__busqueda{
+        display: none;
+    }
+
+    .nav__contenido{
+        display: none;
+    }
+
+    .submenu{
+        display: none;
+    }
+
+    .header-responsivo{
+        background-color: black;
+        height: 60vh;
+        top: -60vh;
+        position: absolute;
+        display: block;
+    }
+
+    .nav__li{
+        padding: 15px;
+        border: 0;
+    }
+
+    #menu-open{
+        display: block;
+    }
+
+    .nav__li:hover{
+        border: 0;
+    }
+
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .bars-responsivo{
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .cierre{
+        margin-right: 300px;
+    }
+
+    #menu{
+        transition: 1s;
+    }
+
+    #menu:target{
+        top: 65px;
+        transition: 1s;
+    }
+
+    .slider__ul{
+        height: 20.5vh;
+    }
+
+    #i4{
+        background-size: 150%;
+    }
+
+    #i3{
+        background-position-y: 0px;
+        background-size: 150%;
+    }
+
+    #i2{
+        background-size: 148%;
+        background-position-x: -15px;
+    }
+
+    #i1{
+        background-position-y: -10px;
+        background-size: 150%;
+        background-position-x: -100px;
+    }
+
+    .modelos-titulos{
+        font-size: 25px;
+        margin-left: -0px;
+        margin-top: -20px;
+    }
+
+    .models-contenedor{
+        height: 310px;
+        width: 300px;
+    }
+
+    .modelos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .modelos__img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .modelos__p{
+        display: none;
+    }
+
+    .modelos__v{
+        margin-top: -10px;
+    }
+
+    .modelos__b{
+        margin-left: 18px;
+    }
+
+    .redes{
+        color: #00b4d8;
+        font-size: 40px;
+    }
+
+    .contactanos{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .redes-contenedor{
+        height: 100px;
+        width: 80px;
+    }
+}

@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+header {
+  background-color: black;
+  z-index: 1;
+}
+
+.nav__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.nav__li {
+  list-style: none;
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.nav__li:hover {
+  border-bottom: 4px #00b4d8 solid;
+}
+
+.nav__a {
+  text-decoration: none;
+}
+
+.nav__i {
+  font-size: 25px;
+  color: white;
+  margin: 5px;
+}
+
+.nav__busqueda {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__buscador {
+  height: 45px;
+  width: 600px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+  border: 0;
+  color: black;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.nav__submit {
+  height: 45px;
+  width: 50px;
+  border-left: none;
+  color: white;
+  border: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.nav__submit:hover {
+  cursor: pointer;
+}
+
+.nav__lupa {
+  font-size: 30px;
+  color: black;
+}
+
+.submenu {
+  border-bottom: 2.5px solid white;
+}
+
+.submenu__li {
+  color: white;
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  height: 200px;
+  width: 320px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submenu__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 35px;
+  padding: 5px;
+}
+
+.submenu__contenedor .nav__li:hover > .submenu__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 67%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 14px;
+}
+
+.submenu__contenedor .c:hover > .submenu__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background-color: black;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -240px;
+  padding: 10px;
+}
+
+.submenu__contenido {
+  display: none;
+  position: absolute;
+}
+
+.submenu__img {
+  width: 200px;
+}
+
+.submenu__img-redes {
+  width: 200px;
+  margin-top: 30px;
+}
+
+#submenu__img-redes-1 {
+  width: 130px;
+}
+
+#submenu__img-1 {
+  margin-top: 20px;
+}
+
+#submenu__img-2 {
+  width: 290px;
+  margin-top: -30px;
+}
+
+.bars-responsivo {
+  display: none;
+}
+
+.header-responsivo {
+  display: none;
+}
+
+#menu-open {
+  display: none;
+}
+
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400%;
+  height: 60vh;
+  -webkit-animation: cambio 20s infinite alternate;
+          animation: cambio 20s infinite alternate;
+}
+
+#i1 {
+  background-image: url(http://d2ovaz7fxvur3h.cloudfront.net/bix/landing/darc/005/img/banner.jpg);
+  background-size: 97%;
+  background-position-y: -50px;
+}
+
+#i2 {
+  background-image: url(https://www.gruporobayna.com.ar/peugeot/img/index/ordenador/202011---MR-BANNER208.jpg);
+  background-size: 100%;
+}
+
+#i3 {
+  background-image: url(https://www.autofrance.com.ar/img/index/ordenador/BANNER-208-GT.png);
+  background-size: 100%;
+  background-position-y: -50px;
+}
+
+#i4 {
+  background-image: url(https://media.peugeotcolombia.com.co/image/26/2/banner-peugeot-cumple.575262.32.png?autocrop=1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+}
+
+.slider__li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider__img {
+  width: 100%;
+}
+
+.modelos-contenedor {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.modelos-titulos {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+.modelos__h3-titulos {
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.modelos__img {
+  width: 400px;
+  height: 250px;
+}
+
+.models-contenedor {
+  width: 400px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  border-bottom: #00b4d8 solid 3px;
+}
+
+.modelos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  margin: 30px;
+  margin-left: 45px;
+}
+
+.modelos__p {
+  font-family: 'Gothic A1', sans-serif;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modelos__ver {
+  color: #00b4d8;
+}
+
+.modelos__v {
+  padding: 20px;
+}
+
+.flecha {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #00b4d8;
+}
+
+.modelos__b {
+  background-color: #00b4d8;
+  height: 50px;
+  width: 300px;
+  border: 0;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.redes {
+  color: #00b4d8;
+  font-size: 100px;
+}
+
+.contactanos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 30vw;
+}
+
+.redes-contenedor {
+  height: 200px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav__busqueda {
+    display: none;
+  }
+  .nav__contenido {
+    display: none;
+  }
+  .submenu {
+    display: none;
+  }
+  .header-responsivo {
+    background-color: black;
+    height: 60vh;
+    top: -60vh;
+    position: absolute;
+    display: block;
+  }
+  .nav__li {
+    padding: 15px;
+    border: 0;
+  }
+  #menu-open {
+    display: block;
+  }
+  .nav__li:hover {
+    border: 0;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .bars-responsivo {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .cierre {
+    margin-right: 300px;
+  }
+  #menu {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  #menu:target {
+    top: 65px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .slider__ul {
+    height: 20.5vh;
+  }
+  #i4 {
+    background-size: 150%;
+  }
+  #i3 {
+    background-position-y: 0px;
+    background-size: 150%;
+  }
+  #i2 {
+    background-size: 148%;
+    background-position-x: -15px;
+  }
+  #i1 {
+    background-position-y: -10px;
+    background-size: 150%;
+    background-position-x: -100px;
+  }
+  .modelos-titulos {
+    font-size: 25px;
+    margin-left: -0px;
+    margin-top: -20px;
+  }
+  .models-contenedor {
+    height: 310px;
+    width: 300px;
+  }
+  .modelos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+  }
+  .modelos__img {
+    width: 300px;
+    height: 200px;
+  }
+  .modelos__p {
+    display: none;
+  }
+  .modelos__v {
+    margin-top: -10px;
+  }
+  .modelos__b {
+    margin-left: 18px;
+  }
+  .redes {
+    color: #00b4d8;
+    font-size: 40px;
+  }
+  .contactanos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  .redes-contenedor {
+    height: 100px;
+    width: 80px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

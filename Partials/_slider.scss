@@ -1,0 +1,64 @@
+@keyframes cambio {
+	0% {
+		margin-left: 0;
+	}
+	20% {
+		margin-left: 0;
+	}
+	25% {
+		margin-left: -100%;
+	}
+	45% {
+		margin-left: -100%;
+	}
+	50% {
+		margin-left: -200%;
+	}
+	70% {
+		margin-left: -200%;
+	}
+	75% {
+		margin-left: -300%;
+	}
+	100% {
+		margin-left: -300%;
+	}
+}
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider__ul {
+	display: flex;
+	width: 400%;
+	height: 60vh;
+	animation: cambio 20s infinite alternate;
+}
+#i1 {
+	background-image: url(http://d2ovaz7fxvur3h.cloudfront.net/bix/landing/darc/005/img/banner.jpg);
+	background-size: 97%;
+	background-position-y: -50px;
+}
+#i2 {
+	background-image: url(https://www.gruporobayna.com.ar/peugeot/img/index/ordenador/202011---MR-BANNER208.jpg);
+	background-size: 100%;
+}
+#i3 {
+	background-image: url(https://www.autofrance.com.ar/img/index/ordenador/BANNER-208-GT.png);
+	background-size: 100%;
+	background-position-y: -50px;
+}
+#i4 {
+	background-image: url(https://media.peugeotcolombia.com.co/image/26/2/banner-peugeot-cumple.575262.32.png?autocrop=1);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position-y: 0px;
+}
+.slider__li {
+	width: 100%;
+	list-style: none;
+}
+.slider__img {
+	width: 100%;
+}

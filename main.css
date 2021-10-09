@@ -1,13 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
 
-html{
-    scroll-behavior: smooth;
-}
 
 .logo{
     height: 100px;
@@ -39,7 +30,6 @@ a{
     margin-top: 20px;
     margin-right: 30px;
 }
-
 
 .nav__li:hover{
     border-bottom: 4px #00b4d8 solid;
@@ -357,12 +347,15 @@ a{
     .nav__busqueda{
         display: none;
     }
+
     .nav__contenido{
         display: none;
     }
+
     .submenu{
         display: none;
     }
+
     .header-responsivo{
         background-color: black;
         height: 60vh;
@@ -370,7 +363,6 @@ a{
         position: absolute;
         display: block;
     }
-
 
     .nav__li{
         padding: 15px;

@@ -1,0 +1,157 @@
+.logo {
+	height: 100px;
+	width: 100px;
+}
+header {
+	background-color: black;
+	z-index: 1;
+}
+.nav__contenedor {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	padding: 5px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.nav__contenido {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.nav__li {
+	&:hover {
+		border-bottom: 4px #00b4d8 solid;
+	}
+	list-style: none;
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	text-decoration: none;
+	color: white;
+}
+.nav__a {
+	text-decoration: none;
+}
+.nav__i {
+	font-size: 25px;
+	color: white;
+	margin: 5px;
+}
+.nav__busqueda {
+	margin-top: 20px;
+	display: flex;
+}
+.nav__buscador {
+	height: 45px;
+	width: 600px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	outline: none;
+	border: 0;
+	color: black;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.nav__submit {
+	height: 45px;
+	width: 50px;
+	border-left: none;
+	color: white;
+	border: 0;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.nav__lupa {
+	font-size: 30px;
+	color: black;
+}
+.submenu {
+	border-bottom: 2.5px solid white;
+}
+.submenu__li {
+	color: white;
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+	height: 200px;
+	width: 320px;
+	font-family: 'Oswald', sans-serif;
+}
+.submenu__contenedor {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 250px;
+	margin-right: 250px;
+	height: 35px;
+	padding: 5px;
+	.nav__li {
+		&:hover {
+			>.submenu__contenido {
+				display: flex;
+				position: absolute;
+				background-color: rgba(0, 0, 0, 0.6);
+				flex-wrap: wrap;
+				width: 67%;
+				justify-content: space-evenly;
+				border-bottom-left-radius: 20px;
+				border-bottom-right-radius: 20px;
+				padding: 14px;
+			}
+		}
+	}
+	.c {
+		&:hover {
+			>.submenu__contenido {
+				display: flex;
+				position: absolute;
+				background-color: black;
+				flex-wrap: wrap;
+				justify-content: space-evenly;
+				border-bottom-left-radius: 20px;
+				border-bottom-right-radius: 20px;
+				margin-left: -240px;
+				padding: 10px;
+			}
+		}
+	}
+}
+.submenu__contenido {
+	display: none;
+	position: absolute;
+}
+.submenu__img {
+	width: 200px;
+}
+.submenu__img-redes {
+	width: 200px;
+	margin-top: 30px;
+}
+#submenu__img-redes-1 {
+	width: 130px;
+}
+#submenu__img-1 {
+	margin-top: 20px;
+}
+#submenu__img-2 {
+	width: 290px;
+	margin-top: -30px;
+}
+
+.bars-responsivo{
+    display: none;
+}
+
+.header-responsivo{
+    display: none;
+}
+
+#menu-open{
+    display: none;
+}

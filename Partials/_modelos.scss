@@ -1,0 +1,67 @@
+.modelos-contenedor{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.modelos-titulos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.modelos__h3-titulos{
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.modelos__img{
+    width: 400px;
+    height: 250px;
+}
+
+.models-contenedor{
+    width: 400px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    border-bottom: #00b4d8 solid 3px;
+}
+
+.modelos{
+    display: flex;
+    gap: 100px;
+    margin: 30px;
+    margin-left: 45px;
+}
+
+.modelos__p{
+    font-family: 'Gothic A1', sans-serif;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.modelos__ver{
+    color:#00b4d8 ;
+}
+
+.modelos__v{
+    padding: 20px;
+}
+
+.flecha{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #00b4d8;
+}
+
+.modelos__b{
+    background-color: #00b4d8;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+
+
+}
