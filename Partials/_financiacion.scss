@@ -1,6 +1,6 @@
 .financiacion{
     .financiacion__t{
-        font-family: 'Oswald', sans-serif;
+        font-family: $fuenteTitulo;
         font-size: 50px;
         margin-bottom: 20px;
     }
@@ -8,7 +8,8 @@
         display: flex;
         justify-content: space-between;
         gap: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 40px;
 
         .financiacion__contenido{
@@ -20,7 +21,7 @@
             }
 
             .financiacion-titulo{
-                font-family: 'Oswald', sans-serif;
+                font-family: $fuenteTitulo;
                 text-align: left;
                 font-size: 25px;
                 margin-left: 5px;
@@ -29,14 +30,14 @@
             .financiacion-p{
                 text-align: left;
                 font-size: 18px;
-                font-family: 'Gothic A1', sans-serif;
+                font-family: $fuenteTexto;
                 margin-left: 5px;
                 margin-top: 10px;
                 margin-bottom: 5px;
             }
 
             .financiacion__b{
-                background-color: #00b4d8;
+                background-color: $colorPrincipal;
                 height: 40px;
                 width: 200px;
                 border: 0;
@@ -54,3 +55,4 @@
         }
     }
 }
+

@@ -1,0 +1,24 @@
+.menu-sticky{
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.939);
+    .menu-sticky-contenedor{
+        display: flex;
+        gap: 20px;
+        margin: 10px;
+
+        .menu-sticky__titulo{
+            border-bottom: 2px solid $colorPrincipal;
+        }
+        .menu-sticky__a{
+            color: black;
+            font-family: $fuenteTexto;
+            :hover{
+                border-bottom: 2px solid $colorPrincipal;
+            }
+        }
+
+        
+    }
+}

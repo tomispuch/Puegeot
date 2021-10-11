@@ -1,66 +1,60 @@
 .modelos-contenedor{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    .modelos-titulos{
+        font-family: $fuenteTitulo;
+        font-size: 50px;
+        margin: 20px;
+    }
+    .modelos{
+        display: flex;
+        justify-content: space-between;
+        gap:10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        .models-contenedor{
+            width: 470px;
+            .modelos__v{
+                color: $colorPrincipal;
+            }
+        }
+        .modelos__img{
+            height: 450px;
+            width: 470px;
+        }
+        .modelos__h3-titulos{
+            font-family: $fuenteTitulo;
+            text-align: left;
+            font-size: 25px;
+            margin-left: 5px;
+        }
+        .modelos__p{
+            text-align: left;
+            font-size: 18px;
+            font-family: $fuenteTexto;
+            margin-left: 5px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .modelos__v{
+            margin-top: 20px;
+        }
+
+        .modelos__ver{
+            color: $colorPrincipal;
+        }
+        
+    }
+    .modelos__b{
+        background-color: $colorPrincipal;
+        height: 40px;
+        width: 300px;
+        border: 0;
+        color: white;
+        font-weight: 900;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
 }
 
-.modelos-titulos{
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-}
-
-.modelos__h3-titulos{
-    padding: 15px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.modelos__img{
-    width: 400px;
-    height: 250px;
-}
-
-.models-contenedor{
-    width: 400px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 10px;
-}
-
-.modelos{
-    display: flex;
-    gap: 100px;
-    margin: 30px;
-    margin-left: 45px;
-}
-
-.modelos__p{
-    font-family: 'Gothic A1', sans-serif;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.modelos__ver{
-    color:#00b4d8 ;
-}
-
-.modelos__v{
-    padding: 20px;
-}
-
-.flecha{
-    font-size: 14px;
-    margin-left: 5px;
-    color: #00b4d8;
-}
-
-.modelos__b{
-    background-color: #00b4d8;
-    height: 50px;
-    width: 300px;
-    border: 0;
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
-
-
-}
