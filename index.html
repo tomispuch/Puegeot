@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <nav class="nav__contenedor">
+        <nav class="nav__contenedor" id="#nav">
             <a href="./index.html"><img class="logo" src="./Imagenes/Logo p.png" alt="LogoPegueot"></a>
             <form class="nav__busqueda">
                 <input class="nav__buscador" type="text" placeholder="Busque su futuro vehiculo...">
@@ -126,9 +126,9 @@
     <section class="menu-sticky">
         <div class="menu-sticky-contenedor">
             <h3 class="menu-sticky__titulo">PEUGEOT</h3>
-            <a class="menu-sticky__a" href=""><h4 class="menu-sticky__h4">VEHICULOS</h4></a>
-            <a class="menu-sticky__a" href=""><h4 class="menu-sticky__h4">CONTACTANOS</h4></a>
-            <a class="menu-sticky__a" href=""><h4 class="menu-sticky__h4">FINANCIACION</h4></a>
+            <a class="menu-sticky__a" href="#modelos"><h4 class="menu-sticky__h4">VEHICULOS</h4></a>
+            <a class="menu-sticky__a" href="#redes"><h4 class="menu-sticky__h4">CONTACTANOS</h4></a>
+            <a class="menu-sticky__a" href="#finan"><h4 class="menu-sticky__h4">FINANCIACION</h4></a>
             <a class="menu-sticky__a" href=""><h4 class="menu-sticky__h4">MANTENIMIENTO</h4></a>
             <a class="menu-sticky__a" href=""><h4 class="menu-sticky__h4">TECNOLOGIA</h4></a>
         </div>
@@ -146,14 +146,14 @@
                 </div>
 
                 <div class="models-contenedor">
-                    <img class="modelos__img" src="https://www.diariomotor.com/imagenes/2016/06/peugeot-3008-2021-exterior-04.jpg" alt="">
+                    <img class="modelos__img" src="https://img.automexico.com/crop/840x640/2020/06/25/2gS0vPdI/3008-1-1b34.jpg" alt="">
                     <h3 class="modelos__h3-titulos">NUEVO SUV PEUGEOT 3008</h3>
                     <p class="modelos__p">El nuevo SUV PEUGEOT 3008 tiene un diseño que inspira, elegante y moderno a la vez. El alto nivel de tecnología y equipamiento permiten increibles sensaciones de conducción. </p>
                     <h3 class="modelos__v"><a class="modelos__ver" href=""> Ver mas<i class="fas fa-chevron-right flecha"></i></a></h3>
                 </div>
                 
                 <div class="models-contenedor">
-                    <img class="modelos__img" src="https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c/index/imagenes/5008Web.jpg?imwidth=461" alt="">
+                    <img class="modelos__img" src="http://www.racing5.cl/wp-content/uploads/2017/10/059-560x370.jpg" alt="">
                     <h3 class="modelos__h3-titulos">NUEVO SUV PEUGEOT 5008</h3>
                     <p class="modelos__p">El nuevo SUV PEUGEOT 3008 tiene un diseño que inspira, elegante y moderno a la vez. El alto nivel de tecnología y equipamiento permiten increibles sensaciones de conducción..</p>
                     <h3 class="modelos__v"><a class="modelos__ver" href=""> Ver mas<i class="fas fa-chevron-right flecha"></i></a></h3>
@@ -191,18 +191,28 @@
     
     <div class="banner2"></div>
 
-    <section>
+    <section class="mantenimiento">
         <h2 class="mantenimiento__titulo">MANTENIMIENTO</h2>
         <div class="mantenimiento__contenido-1">
-            <div class="mantenimiento">
-
+            <div class="mantenimiento-descripcion">
+                <h1 class="mantenimiento-titulo">MANTENIMIENTOS PROGRAMADOS</h1>
+                <p class="mantenimiento-p">¿Sabias que podes comprar de manera anticipada los proximos mantenimientos programados de tu auto? Lo podes hacer 100% online y con grandes descuentos.</p>
+                <button class="button-1">CONOCER MAS</button>
             </div>
-            <div>
+            <div class="mantenimiento-foto-1">
 
             </div>
         </div>
-        <div class="mantenimiento__contenido-2">
 
+        <div class="mantenimiento__contenido-2">
+            <div class="mantenimiento-foto-2">
+
+            </div>
+            <div class="mantenimiento-descripcion">
+                <h1 class="mantenimiento-titulo-2">OPERACIONES RÁPIDAS</h1>
+                <p class="mantenimiento-p-2">¿Necesitas cambiarle la bateria a tu Peugeot? Con las Operaciones Rapidas podes comprar de manera online algunos servicios livianos para realizar en los talleres Peugeot Rapide.</p>
+                <button class="button-2">CONOCER MAS</button>
+            </div>
         </div>
     </section>
     

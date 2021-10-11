@@ -1,0 +1,85 @@
+.mantenimiento__titulo{
+    font-family: $fuenteTitulo;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.mantenimiento__contenido-1{
+    display: grid;
+    grid-template-columns: 38vw 60vw;
+    grid-template-rows: 100vh;
+    .mantenimiento-descripcion{
+        margin-top: 40vh;
+        .mantenimiento-titulo{
+            font-family: $fuenteTitulo;
+            border-bottom: 2px solid $colorPrincipal;
+            width: 400px;
+            margin-left: 90px;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        .mantenimiento-p{
+            font-family: $fuenteTexto;
+            font-weight: 900;
+            font-size: 18px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .button-1{
+            border: 0;
+            height: 40px;
+            width: 160px;
+            background-color: $colorPrincipal;
+            color: white;
+            margin-top: 20px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+    .mantenimiento-foto-1{
+        background-attachment: fixed;
+        background-image: url(https://static.retail.autofact.cl/blog/1932_20181130224424.original.jpg);
+        background-size: 90%;
+        background-position-x:  400px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.mantenimiento__contenido-2{
+    display: grid;
+    grid-template-columns: 60vw 38vw;
+    grid-template-rows: 100vh;
+    .mantenimiento-foto-2{
+        background-attachment: fixed;
+        background-image: url(https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/11/mantenimiento-preventivo-2145671.jpg?itok=bSgXRI0l);
+    }
+    .mantenimiento-descripcion{
+        margin-top: 40vh;
+        .mantenimiento-titulo-2{
+            font-family: $fuenteTitulo;
+            border-bottom: 2px solid $colorPrincipal;
+            width: 300px;
+            margin-left: 140px;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        .mantenimiento-p-2{
+            font-family: $fuenteTexto;
+            font-weight: 900;
+            font-size: 18px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .button-2{
+            border: 0;
+            height: 40px;
+            width: 160px;
+            background-color: $colorPrincipal;
+            color: white;
+            margin-top: 20px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+}

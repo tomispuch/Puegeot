@@ -368,7 +368,7 @@ a {
 }
 
 .modelos-contenedor .modelos .modelos__img {
-  height: 450px;
+  height: 400px;
   width: 470px;
 }
 
@@ -649,5 +649,106 @@ a {
   text-align: center;
   padding-left: 40px;
   padding-top: 10px;
+}
+
+.mantenimiento__titulo {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.mantenimiento__contenido-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 38vw 60vw;
+      grid-template-columns: 38vw 60vw;
+  -ms-grid-rows: 100vh;
+      grid-template-rows: 100vh;
+}
+
+.mantenimiento__contenido-1 .mantenimiento-descripcion {
+  margin-top: 40vh;
+}
+
+.mantenimiento__contenido-1 .mantenimiento-descripcion .mantenimiento-titulo {
+  font-family: "Oswald", sans-serif;
+  border-bottom: 2px solid #00b4d8;
+  width: 400px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.mantenimiento__contenido-1 .mantenimiento-descripcion .mantenimiento-p {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mantenimiento__contenido-1 .mantenimiento-descripcion .button-1 {
+  border: 0;
+  height: 40px;
+  width: 160px;
+  background-color: #00b4d8;
+  color: white;
+  margin-top: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.mantenimiento__contenido-1 .mantenimiento-foto-1 {
+  background-attachment: fixed;
+  background-image: url(https://static.retail.autofact.cl/blog/1932_20181130224424.original.jpg);
+  background-size: 90%;
+  background-position-x: 400px;
+  background-repeat: no-repeat;
+}
+
+.mantenimiento__contenido-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60vw 38vw;
+      grid-template-columns: 60vw 38vw;
+  -ms-grid-rows: 100vh;
+      grid-template-rows: 100vh;
+}
+
+.mantenimiento__contenido-2 .mantenimiento-foto-2 {
+  background-attachment: fixed;
+  background-image: url(https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/11/mantenimiento-preventivo-2145671.jpg?itok=bSgXRI0l);
+}
+
+.mantenimiento__contenido-2 .mantenimiento-descripcion {
+  margin-top: 40vh;
+}
+
+.mantenimiento__contenido-2 .mantenimiento-descripcion .mantenimiento-titulo-2 {
+  font-family: "Oswald", sans-serif;
+  border-bottom: 2px solid #00b4d8;
+  width: 300px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.mantenimiento__contenido-2 .mantenimiento-descripcion .mantenimiento-p-2 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mantenimiento__contenido-2 .mantenimiento-descripcion .button-2 {
+  border: 0;
+  height: 40px;
+  width: 160px;
+  background-color: #00b4d8;
+  color: white;
+  margin-top: 20px;
+  font-weight: 900;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
